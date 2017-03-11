@@ -6,5 +6,5 @@
  * Time: 20:48
  */
 <?php
-    echo "Where's the MySQL?"
+    echo "Let the MySQL begin!"
 ?>
