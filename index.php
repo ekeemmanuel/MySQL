@@ -16,7 +16,7 @@
             <p><a href="displayMarvel.php">Display Movies created by Marvel Studios</a></p>
             <p><a href="displayCreatedafter.php">Display All Movies created after 2010</a></p>
             <p><a href="displayXmen.php">Display all X-Men Films</a></p>
-            <p>For more details click <a href="https://www.google.com">here</a></p>
+            <p>For more details click <a href="https://www.google.com/">here</a></p>
 <?php
     echo "Let the MySQL begin!"
 ?>
