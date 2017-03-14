@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel Movies</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<header>
+    <h1>All Available Movies</h1>
+</header>
 <?php
 //link to your database
 include 'dbConnect.php';
@@ -15,3 +26,6 @@ while ($row = $result->fetch_array()) {
 $result->close();
 $link->close();
 ?>
+<p>Click to return to <a href="index.php">Homepage</a></p>
+</body>
+</html>

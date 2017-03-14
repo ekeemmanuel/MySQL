@@ -1,8 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel Movies</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<header>
+    <h1>Movies Created After 2010</h1>
+</header>
 <?php
 //link to your database
 include 'dbConnect.php';
 //create a SQL query as a string
-$sql_query = "SELECT * FROM marvelmovies WHERE yearReleased>2010; ";
+$sql_query = "SELECT * FROM marvelmovies WHERE yearReleased>=2010; ";
 //execute the SQL query
 $result = $link->query($sql_query);
 //iterate over $result object $row at a time
@@ -16,3 +27,6 @@ while ($row = $result->fetch_array()) {
 $result->close();
 $link->close();
 ?>
+<p>Click to return to <a href="index.php">Homepage</a></p>
+</body>
+</html>
