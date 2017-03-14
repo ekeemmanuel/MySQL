@@ -27,6 +27,6 @@ while ($row = $result->fetch_array()) {
 $result->close();
 $link->close();
 ?>
-<p>Click to return to <a href="index.php">Homepage</a></p>
+<p id="slant">Click to return to <a href="index.php">Homepage</a></p>
 </body>
 </html>
