@@ -15,7 +15,6 @@
         <?php
             include 'dbConnect.php';
         ?>
-
             <p><a href="displayAll.php">Display All Movies</a></p>
             <p><a href="displayMarvel.php">Display Movies created by Marvel Studios</a></p>
             <p><a href="displayCreatedafter.php">Display All Movies created after 2010</a></p>
