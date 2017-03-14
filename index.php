@@ -16,7 +16,7 @@
             include 'dbConnect.php';
         ?>
             <p><a href="displayAll.php">Display All Movies</a></p>
-            <p><a href="displayMarvel.php">Display Movies created by Marvel Studios</a></p>
+            <p><a href="displayFox.php">Display Movies created by Marvel Studios</a></p>
             <p><a href="displayCreatedafter.php">Display All Movies created after 2010</a></p>
             <p><a href="displayXmen.php">Display all X-Men Films</a></p>
             <p>For more details click <a href="https://www.google.com/">here</a></p>
