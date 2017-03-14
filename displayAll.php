@@ -10,8 +10,7 @@ $result = $link->query($sql_query);
 while ($row = $result->fetch_array()) {
     //process the flow
     // print out fields from row of data
-    echo "<p>" . $row ['marvelMovieID'] . " - " . $row ['title'] . " - " . $row ['productionStudio'] . "</p>";
-
+    echo "<p>$row</p>";
 }
 $result->close();
 $link->close();
