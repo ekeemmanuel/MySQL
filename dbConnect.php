@@ -1,5 +1,4 @@
 <?PHP
-echo "here!";
 $connectstr_dbhost = '';
 $connectstr_dbname = '';
 $connectstr_dbusername = '';
