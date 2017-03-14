@@ -4,3 +4,6 @@ h3{
 #slant{
     font-style: italic;
 }
+a{
+    text-underline: none;
+}
