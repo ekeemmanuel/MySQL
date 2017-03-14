@@ -1,4 +1,6 @@
 <?PHP
+echo "Just run";
+
 $connectstr_dbhost = '';
 $connectstr_dbname = '';
 $connectstr_dbusername = '';
@@ -14,7 +16,7 @@ foreach ($_SERVER as $key => $value) {
 }
 
 $link = mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword, $connectstr_dbname);
-echo "Just run";
+
 if (!$link) {
     echo "Error: Una ble to  connect to MySQL." . PHP_EOL;
     echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
