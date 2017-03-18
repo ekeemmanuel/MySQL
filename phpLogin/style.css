@@ -1,0 +1,9 @@
+h3 {
+    font-color: green; font-size: 25pt;
+}
+#slant{
+    font-style: italic;
+}
+a {
+    text-underline: none;
+}
