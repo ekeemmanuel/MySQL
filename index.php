@@ -7,7 +7,7 @@
 </head>
 <body>
 <header>
-    <h1>Index Page</h1>
+    <h3>Index Page</h3>
 </header>
 <main>
     <section>
