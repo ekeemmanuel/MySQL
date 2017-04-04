@@ -1,3 +1,6 @@
+<?php
+include("connection.php");
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -10,9 +13,6 @@
 <div class="loginBox">
     <h3>Login Form</h3>
     <br><br>
-    <?php
-    include("connection.php");
-    ?>
     <form method="post" action="login.php">
         <label>Username:</label><br>
         <input type="text" name="username" placeholder="username"/><br><br>
