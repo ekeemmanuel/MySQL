@@ -33,7 +33,7 @@ $link->close();
     $result= $link->query($sql_query);
 
     while ($row= $result->fetch_array()) {
-    echo "My favourite Marvel movie is ".$row;
+    echo "My favourite Marvel movie is ".$row['*'];
     }
 $result->close();
 $link->close();
