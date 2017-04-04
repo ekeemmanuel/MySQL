@@ -26,6 +26,20 @@ while ($row = $result->fetch_array()) {
 $result->close();
 $link->close();
 ?>
+
+<?php
+    include 'dbConnect.php';
+    $sql_query= "select title from marvelmovies where marvelMovieID='4';";
+    $result= $link->query($sql_query);
+
+    while ($row= $result->fetch_array()) {
+    echo "My favourite Marvel movie is".$row ['title'];
+    }
+$result->close();
+$link->close();
+?>
+
+?>
 <p id="slant">Click to return to <a href="index.php">Homepage</a></p>
 </body>
 </html>
