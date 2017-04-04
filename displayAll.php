@@ -33,11 +33,10 @@ $link->close();
     $result= $link->query($sql_query);
 
     while ($row= $result->fetch_array()) {
-    echo "My favourite Marvel movie is".$row ['title'];
+    echo "My favourite Marvel movie is".$row;
     }
 $result->close();
 $link->close();
-?>
 
 ?>
 <p id="slant">Click to return to <a href="index.php">Homepage</a></p>
